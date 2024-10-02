@@ -9,5 +9,5 @@ contract PersonDataStorage {
     //Declarando variaveis
     string public name = "Nicolas"; //nome publico para todos
     uint private age = 21; //dados da idade serao privados para todos somente o contrato podera ler
-    bool internal brazilian = true; //internal e o tipo padrao, so esse contrato ou contratos que herdarm desse contrato terao acesso ao conteudo dessa variavel
+    bool internal brazilian = true; //internal e o tipo padrao, so esse contrato ou contratos que herdam desse contrato terao acesso ao conteudo dessa variavel
 }
